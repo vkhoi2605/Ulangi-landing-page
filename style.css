@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Inter", sans-serif;
+}
+
+body {
+
+}
+
+.flex {
+    display: flex;
+}
+
+li , a {
+    list-style-type: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1.2rem 0;
+}
+
+.menu , .menu-ul , .search {
+    display: flex;
+    gap: 2rem;
+}
+
+.menu-ul {
+    gap: 1rem;
+    line-height: 48px;
+}
+
+.search {
+    gap: 2rem;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+}
+
+.search > img {
+    width: 20px;
+
+}
+
+.search .sign__in-btn {
+    font-weight: 700;
+    border: 2px rgba(121, 202, 19, 0.97) solid;
+    border-radius: 50px;
+    padding: 0.1rem 1.2rem;
+}
+
+/* ============ main=========== */
+
+/* recycle */
+
+.btn-green {
+    background-color: rgba(121, 202, 19, 0.97);
+    border-radius: 50px;
+    padding: 1.1rem 1.8rem;
+    color: #fff;
+}
+
+/* =========Sus========= */
+
+.green-text {
+    color: rgba(121, 202, 19, 0.97);
+}
+
+.sus-future {
+    padding: 2rem;
+    position: relative;
+    overflow: ;
+}
+
+.title {
+    font-size: 28px;
+}
+
+.decription {
+    font-size: 14px;
+    width: 40%;
+    color: #6E6C7B;
+    padding: 1rem 0;
+}
+
+.sus-future-btn {
+    gap: 0.8rem;
+    align-items: center;
+}
+
+.sus-future-btn > img {
+    width: 16px;
+}
+
+.sus-img {
+    position: absolute;
+    width: 1000px;
+    top: -20px;
+    right: 50px;
+    z-index: 1;
+}
+
+.sus-background {
+    position: absolute;
+    width: 600px;
+    right: 0;
+    top: 60px;
+    z-index: 0;
+}
+
+/* ========BANNER========= */
+.banner {
+    position: absolute;
+    background-color: #1D263B;
+    width: 100%;
+    height: 200px;
+    top: 750px;
+    z-index: 2;
+}
